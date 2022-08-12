@@ -1,0 +1,33 @@
+{
+    "name": "crmdesenvolvimentos/laravel-doctrine-enum-support",
+    "description": "Doctrine Support with Laravel (Support for enum)",
+    "license": "MIT",
+    "keywords": ["laravel", "enum", "doctrine", "dbal", "support"],
+    "homepage": "https://github.com/crmdesenvolvimentos/laravel-doctrine-enum-support",
+    "support": {
+        "issues": "https://github.com/crmdesenvolvimentos/laravel-doctrine-enum-support/issues",
+        "source": "https://github.com/crmdesenvolvimentos/laravel-doctrine-enum-support"
+    },
+    "authors": [
+        {
+            "name": "Célio Martins",
+            "email": "crmdesenvolvimentos@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": ">=7.3",
+        "doctrine/dbal": ">=3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Crmdesenvolvimentos\\Doctrine\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Crmdesenvolvimentos\\Doctrine\\DoctrineServiceProvider"
+            ]
+        }
+    }
+}
