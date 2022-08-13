@@ -1,6 +1,6 @@
 {
     "name": "crmdesenvolvimentos/laravel-doctrine-enum-support",
-    "description": "Doctrine Support with Laravel (Support for enum)",
+    "description": "Doctrine Support with Laravel (solve problem Unknown database type enum requested)",
     "license": "MIT",
     "keywords": ["laravel", "enum", "doctrine", "dbal", "support"],
     "homepage": "https://github.com/crmdesenvolvimentos/laravel-doctrine-enum-support",
